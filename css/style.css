@@ -1,0 +1,329 @@
+.owl-carousel .item{
+    height:800px;
+    background-position: center ;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+}
+.navbar{
+    background: rgb(133, 213, 214) !important;
+    padding-left:  50px !important;
+}
+#navbarNav{
+    justify-content: center !important;
+}
+.navbar-nav li a{
+    color: white !important;
+}
+.navbar-nav{
+    min-width: 500px !important;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-nav li{
+    margin-left: 1.4rem;
+}
+.nav-item{
+    border-bottom: 0px solid white;
+}
+.nav-item:hover{
+    animation: borderbottom 1s forwards;
+}
+.item{
+    position: relative;
+}
+.flex-space-between{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+.overlay-text{
+    position: relative;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:auto;
+    padding:40px;
+    background-color:rgb(133, 213, 214,.9);
+    color:white !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.overlay-text h1{
+    text-align: center;
+    color:white !important;
+}
+.overlay-text p{
+    max-width: 600px;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(133, 213, 214) ;
+}
+h2{
+    margin-bottom: 40px;;
+}
+.title{
+    position: relative;
+}
+.title:after{
+    position: absolute;
+    content: "";
+    width:0%;
+    height:3px;
+    bottom:-30%;
+    left:50%;
+    transform: translateX(-50%);
+    background-color:rgb(133, 213, 214) ;
+}
+.section{
+    margin-bottom: 150px;
+}
+
+.section:hover  .title:after{
+    animation : wider 1s forwards;
+    transition: 1s;
+}
+.mt-12{
+    margin-top:50px ;
+}
+.mb-12{
+    margin-bottom:50px ;
+}
+.image-position{
+    position: absolute;
+    right: 0;
+    width: 300px;
+}
+.image-position-bottom{
+    position: absolute;
+    left: 0;
+    transform: rotateY(180deg);
+    width: 300px;
+}
+.bg-parallax{
+    padding:60px 40px;
+    background-image: url("../images/par.jpg");
+    min-height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-parallax .title{
+    color: white;
+}
+.absolute{
+    position: relative;
+    margin-top: 100px;
+    background-color: rgb(133, 213, 214,.9);
+    padding: 50px 20px;
+}
+.absolute .overlay-text{
+    text-align: center;
+    margin-top: 100px;
+}
+.absolute h4{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+.absolute p{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+.bg-parallax .overlay-text{
+    width:100%;
+}
+.bg-parallax .title{
+    font-size: 54px !important;
+}
+.w-100{
+    width:100%;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.flex-start{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.fiex-row{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.flex  {
+    max-width: 80%;
+    margin-left:3rem;
+}
+.icon{
+    font-size: 5em;
+    line-height: .03125em;
+    vertical-align: -0.1875em;
+}
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.circle{
+    width:350px;
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 100%;
+    border:0px solid #1cade4;
+    font-size: 20px;
+    background-color: rgb(133, 213, 214,.2);
+    padding-left:10px;
+    padding-right:10px;
+    transition:.3s ease-in;
+}
+.circle:hover{
+    border:8px solid #1cade4;
+    transition:.3s;
+}
+.vis{
+    width: 500px;
+    height: 500px;
+    background: url('../images/vis.jpg');
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    border-radius: 100%;
+}
+.flex-vis{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+.flex-vis h1,.flex-vis h3,.flex-vis p{
+    margin-top:3rem
+}
+.mt-14{
+    margin-top:5rem;
+}
+.footer{
+    width: 100%;
+    background-image: url(../images/footer.svg)!important;
+    background-position: 50% -1px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color:#86d6d7;
+}
+.flex-footer{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+}
+.flex-row-footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-footer img{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+.flex-footer h2 {
+    color:white !important;
+    font-size: 18px;
+    margin-bottom:2rem !important;
+}
+.flex-footer h2 a {
+    color:white;
+    text-decoration: none;
+}
+a , h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p, li {
+    font-family: 'Poppins', sans-serif;
+}
+@keyframes wider{
+    0%{
+        width:0%;
+        transition: 1s;
+    }
+    100%{
+        width: 30%;
+        transition: 1s;
+    }
+}
+@keyframes borderbottom{
+    0%{
+        border-bottom: 0px solid white;
+        transition: 1s;
+    }
+    100%{
+        border-bottom: 1px solid white;
+        transition: 1s;
+    }
+}
+
+@media (max-width:767px){
+    .flex-row{
+        justify-content: center;
+    }
+    .circle{
+        margin-top: 40px;
+        border:8px solid #1cade4;
+    }
+    .image-position{
+        width:100px
+    }
+    .image-position-bottom{
+        width:100px
+    }
+    .section h3{
+        text-align: center;
+    }
+    .section p {
+        text-align: center;
+    }
+    .flex .fiex-row{
+        margin-top:4rem !important
+    }
+    .card{
+        margin-top:4rem !important;
+        text-align: center;
+        border:0px solid;
+        border-bottom:2px solid rgb(133, 213, 214);
+    }
+    .flex-vis{
+        padding:0px 2rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .vis{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        left:50%;
+        transform: translateX(-50%);
+    }
+}
